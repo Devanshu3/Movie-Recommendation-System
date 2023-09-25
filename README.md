@@ -36,4 +36,4 @@ You can customize the program by changing parameters such as min_df, max_feature
 You can also modify the number of recommended movies returned by changing the number in sig_scores[1:11] to a different value.
 
 **Credits**
-This program was created by [Devanshu].
+This program was created by [Devanshu3].
