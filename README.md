@@ -2,7 +2,7 @@
 This Python program is a simple movie recommendation system that suggests movies based on their textual descriptions (overviews). It uses the TF-IDF (Term Frequency-Inverse Document Frequency) technique and the sigmoid kernel to measure similarity between movies.
 
 
-**Requirements**
+## Requirements
 Python 3.x
 Pandas
 NumPy
