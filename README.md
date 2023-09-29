@@ -2,7 +2,7 @@
 This Python program is a simple movie recommendation system that suggests movies based on their textual descriptions (overviews). It uses the TF-IDF (Term Frequency-Inverse Document Frequency) technique and the sigmoid kernel to measure similarity between movies.
 
 
-## Requirements
+**Requirements**
 Python 3.x
 Pandas
 NumPy
@@ -16,7 +16,7 @@ Running the Program: Execute the Python script to load the data, preprocess it, 
 python movie_recommendation.py
 
 
-Getting Recommendations: To get movie recommendations, you can call the give_recomendations function with a movie title as an argument. For example:
+**Getting Recommendations:** To get movie recommendations, you can call the give_recomendations function with a movie title as an argument. For example:
 recommendations = give_recomendations('Titanic')
 print(recommendations)
 This will print a list of movie titles that are similar to the input movie title based on the calculated similarity scores.
@@ -36,4 +36,4 @@ You can customize the program by changing parameters such as min_df, max_feature
 You can also modify the number of recommended movies returned by changing the number in sig_scores[1:11] to a different value.
 
 **Credits**
-This program was created by [Devanshu3].
+This program was created by Devanshu3.
